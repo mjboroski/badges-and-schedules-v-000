@@ -17,5 +17,7 @@ end
 def printer(names)
    holder = batch_badge_creator(names)
    holder2 = assign_rooms(names)
-   holder.each_with_index{|name,index| puts "#{name} + #{holder2[index]}"}
+   holder.each_with_index |name,index|
+    puts "#{name}"
+    puts "#{holder2[index]}"
 end
