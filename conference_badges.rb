@@ -10,8 +10,6 @@ def assign_rooms
 
 end
 
-def printer 
+def printer
 
 end
-
-
