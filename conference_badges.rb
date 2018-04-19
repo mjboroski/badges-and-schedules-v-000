@@ -10,7 +10,7 @@ end
 
 def assign_rooms(names)
   rooms=Array.new
-  names.each {|name| rooms.unshift("Hello, #{name}! You'll be assigned to room #{index}!")}
+  names.each {|name| rooms.unshift("Hello, #{name}! You'll be assigned to room #{rooms.index}!")}
   return rooms
 end
 
